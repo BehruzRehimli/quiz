@@ -108,11 +108,12 @@ h4 {
     display: flex;
     flex-wrap: wrap;
     gap:1rem;
+    
 }
 #second .container div:nth-child(2){
     background-image: url("../images/Bitmap\ \(1\).png");
     width: 49%;
-    height: 720px;
+    height: 416px;
     background-repeat: no-repeat;
     background-size: cover; 
 
@@ -120,7 +121,7 @@ h4 {
 #second .container div:nth-child(3){
     background-image: url("../images/Bitmap\ \(2\).png");
     width: 49%;
-    height: 720px;
+    height: 416px;
     background-repeat: no-repeat;
     background-size: cover; 
     margin-left: 0.6rem;
@@ -129,7 +130,7 @@ h4 {
 #second .container div:nth-child(4){
     background-image: url("../images/Bitmap\ \(3\).png");
     width: 49%;
-    height: 720px;
+    height: 416px;
     background-repeat: no-repeat;
     background-size: cover; 
 
@@ -137,8 +138,37 @@ h4 {
 #second .container div:nth-child(5){
     background-image: url("../images/Bitmap\ \(4\).png");
     width: 49%;
-    height: 720px;
+    height: 416px;
     background-repeat: no-repeat;
     background-size: cover; 
     margin-left: 0.6rem;
+}
+#second .container div{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 3rem;
+}
+button{
+    position: relative;
+    line-height: 2rem;
+    color: #391400;
+    padding: 5px 16px 1px 16px;
+    background-color: white;
+    border-radius: 19px;
+    border: none;
+    width: 6rem;
+    margin-bottom: 27px;
+}
+h2{
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 64px;
+    color: white;
+    position: relative;
+}
+.bottom{
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px;
 }
